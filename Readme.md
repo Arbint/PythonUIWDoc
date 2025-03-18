@@ -9,3 +9,5 @@
 [04 Containers](Docs/04_Containers.md)
 
 [05 Flow Control](Docs/05_FlowControl.md)
+
+[06 Functions](Docs/06_Functions.md)

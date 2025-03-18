@@ -1,15 +1,9 @@
-names = ["Steve", "Harry"]
-names.insert(0,"sdfsdf")
 
-names2 = ["ah", "be"]
-print(names + names2)
+numbers = [1, 3, 5, -1, -8, 10, -2]
 
-
-print("Hello");print("How Are You!");print("Have a nice day!")
+def printAll(*args):
+    for item in args:
+        print(item)
 
 
-studentInfo = {"Name": "Steve", "age":20, "level":"sophomore"}
-print(studentInfo)
-
-del studentInfo["age"]
-print(studentInfo)
+printAll(1, 2,23,4,4,5)
